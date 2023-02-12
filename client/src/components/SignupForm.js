@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 
 // import Apollo hook and the add user mutation
-import { useMutation } from "@apollo/react-hooks";
+import { useMutation } from "@apollo/client";
 import { ADD_USER } from "../utils/mutations";
 
 import Auth from "../utils/auth";

@@ -6,12 +6,13 @@ const { signToken } = require("../utils/auth");
 
 const resolvers = {
   Query: {
-    user: async (parent, args, context) => {
+  me: async (parent, args, context) => {
       // To see if the user exists
+      console.log(context.user)
       if (context.user) {
         const userData = await User.findOne({ _id: context.user._id })
-          .select("password")
           .populate("books");
+          console.log(userData)
         return userData;
       }
       throw new AuthenticationError("Need to be logged in!");
@@ -21,6 +22,7 @@ const resolvers = {
   Mutation: {
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
+      console.log(user)
       if (!user) {
         throw new AuthenticationError("Login credentials are incorrect!");
       }
