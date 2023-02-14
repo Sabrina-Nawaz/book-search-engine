@@ -26,17 +26,25 @@ Deployed Application Link: https://sabrina-book-search-engine.herokuapp.com/
 
 To install this application, you will need to install it locally by entering the command `npm install`. After the installation of the packages, you need to enter `npm run develop`. Lastly, enter the command `npm start` to initiate the server.
 
+Once the website is running, create a username and password, login, search for a book and then you can add it to your list of books or remove them. 
+
+<img width="1418" alt="Screenshot 2023-02-13 at 9 41 11 PM" src="https://user-images.githubusercontent.com/61954667/218625815-eb3e5fd7-632e-4cc9-a668-61ebc8d6bbca.png">
+<img width="1175" alt="Screenshot 2023-02-13 at 9 41 34 PM" src="https://user-images.githubusercontent.com/61954667/218625835-5d9779a6-4eeb-4e41-8b29-e8926217788c.png">
+<img width="1401" alt="Screenshot 2023-02-13 at 9 42 55 PM" src="https://user-images.githubusercontent.com/61954667/218625849-4392cbbd-e119-4370-ac98-a150357f59aa.png">
+<img width="1210" alt="Screenshot 2023-02-13 at 9 44 33 PM" src="https://user-images.githubusercontent.com/61954667/218625878-b2f9eec7-20e5-494c-8b7e-73181bf6e776.png">
+<img width="447" alt="Screenshot 2023-02-13 at 9 45 02 PM" src="https://user-images.githubusercontent.com/61954667/218626058-5407d999-69cd-4ed1-83e8-d2186dc2d900.png">
+
 ## Technology
 
 This application was created with the following technologies:
 
-MongoDB
-Express.js
-React.js
-Node.js
-JavaScript
-GraphQL API
-Apollo Server
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- JavaScript
+- GraphQL API
+- Apollo Server
 
 ## License
 
