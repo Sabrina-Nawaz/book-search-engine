@@ -58,4 +58,4 @@ If you have any questions about the project you can reach out to me via email or
 
 ## Credits
 
-All coding done by Sabrina Nawaz.
+Starter code provided by UofT Bootcamp
