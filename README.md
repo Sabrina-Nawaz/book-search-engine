@@ -2,19 +2,21 @@
 
  <div align="center">
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 </div>
 
 ## Description
 
-This application is a functional backend for a social network platform, utilizing the MVC model and API routes through Express.js, the MongoDB database and the Mongoose ODM.
+This application is used for users to look new books through the Google's Book API. A user needs to create an account and be logged in to save a book to their list as well as remove a book from their list.
+
+Deployed Application Link: https://sabrina-book-search-engine.herokuapp.com/
 
 ## Table of Contents
 
 - [Usage & Installation](#usage)
+- [Technology](#technology)
 - [License](#license)
-- [Tests](#tests)
 - [Questions](#questions)
 - [Credits](#credits)
 
@@ -22,9 +24,19 @@ This application is a functional backend for a social network platform, utilizin
 
 ## Usage & Installation
 
-As this repository is not deployed, you will need to download the files, have MongoDB installed and then enter the following commands in the terminal: `npm init -y`, `npm install express` and `npm install mongoose`. Lastly, enter the command `npm start` to initiate the server.
+To install this application, you will need to install it locally by entering the command `npm install`. After the installation of the packages, you need to enter `npm run develop`. Lastly, enter the command `npm start` to initiate the server.
 
-## Tests
+## Technology
+
+This application was created with the following technologies:
+
+MongoDB
+Express.js
+React.js
+Node.js
+JavaScript
+GraphQL API
+Apollo Server
 
 ## License
 
